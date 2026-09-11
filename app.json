@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "مواعيدي",
+    "slug": "dates-local",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "dateslocal",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F1EA"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ahmedeisa.dateslocal"
+    },
+    "android": {
+      "package": "com.ahmedeisa.dateslocal",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1B3A4B"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#1B3A4B",
+          "defaultChannel": "dates-hub"
+        }
+      ]
+    ]
+  }
+}

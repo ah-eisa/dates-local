@@ -1,2 +1,21 @@
-# dates-local
-Local-first mobile app for appointments and document expiry. Files stay on device.
+# مواعيدي (dates-local)
+
+تطبيق موبايل مستقل. الملفات والسجل على جهازك. مفيش سيرفر، مفيش رفع لدرايف، مفيش أوتوميشن على Grok.
+
+## بيعمل إيه
+
+- تختار ملف من الموبايل
+- التطبيق ينسخ نسخة جواه ويحاول يطلع التواريخ من الاسم أو الملفات النصية
+- PDF والصور: تراجع التاريخ أو تلصق النص
+- اسأل السجل المحلي
+- إشعار صباحي + تذكير قبل الموعد
+
+## تشغيل
+
+```bash
+cd dates-local
+npm install
+npx expo start
+```
+
+نزّل Expo Go وامسح الـ QR.
